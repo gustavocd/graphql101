@@ -7,7 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon ./app.js"
+    "start": "nodemon ./app.js",
+    "json:server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -15,6 +16,7 @@
     "graphql": "^0.13.1"
   },
   "devDependencies": {
+    "json-server": "^0.12.1",
     "nodemon": "^1.15.1"
   }
 }
