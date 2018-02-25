@@ -3,17 +3,37 @@
     {
       "id": "1",
       "name": "Gustavo",
-      "age": 25
+      "age": 25,
+      "companyId": "1"
     },
     {
       "id": "2",
       "name": "Benjamín",
-      "age": 21
+      "age": 21,
+      "companyId": "2"
     },
     {
       "id": "3",
       "name": "María",
-      "age": 26
+      "age": 26,
+      "companyId": "2"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Google",
+      "description": "search engine"
+    },
+    {
+      "id": "2",
+      "name": "Facebook",
+      "description": "nice social media network"
+    },
+    {
+      "id": "3",
+      "name": "Netflix",
+      "description": "videos and more videos"
     }
   ]
 }
