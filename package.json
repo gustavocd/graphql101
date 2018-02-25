@@ -1,0 +1,20 @@
+{
+  "name": "graphql101",
+  "version": "1.0.0",
+  "description": "A simple application using graphql and express",
+  "main": "app.js",
+  "author": "Gustavo Castillo",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "nodemon ./app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
