@@ -11,6 +11,7 @@
     "json:server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.2",
     "express-graphql": "^0.6.12",
     "graphql": "^0.13.1"
